@@ -1,1 +1,3 @@
-#prag
+#pragma once
+
+// only
