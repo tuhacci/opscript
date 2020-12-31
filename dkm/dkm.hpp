@@ -4,4 +4,5 @@
 #ifndef DKM_KMEANS_H
 #define DKM_KMEANS_H
 
-#include 
+#include <algorithm>
+#
