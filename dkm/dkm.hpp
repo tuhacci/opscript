@@ -8,4 +8,5 @@
 #include <array>
 #include <cassert>
 #include <cstddef>
-#include <cstdin
+#include <cstdint>
+#include <random>
