@@ -15,4 +15,4 @@
 #include <vector>
 
 /*
-DKM - A k
+DKM - A k-means imple
