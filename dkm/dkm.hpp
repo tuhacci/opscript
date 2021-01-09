@@ -15,4 +15,4 @@
 #include <vector>
 
 /*
-DKM - A k-means implementation that is generic a
+DKM - A k-means implementation that is generic across variable data
