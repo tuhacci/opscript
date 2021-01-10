@@ -20,4 +20,4 @@ DKM - A k-means implementation that is generic across variable data dimensions.
 namespace dkm {
 
 /*
-These
+These functions are all p
