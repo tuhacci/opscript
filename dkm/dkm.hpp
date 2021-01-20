@@ -21,4 +21,6 @@ namespace dkm {
 
 /*
 These functions are all private implementation details and shouldn't be referenced outside of this
-fil
+file.
+*/
+namespace 
