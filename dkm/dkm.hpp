@@ -26,4 +26,4 @@ file.
 namespace details {
 
 /*
-C
+Calculate the 
