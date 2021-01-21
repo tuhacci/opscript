@@ -26,4 +26,4 @@ file.
 namespace details {
 
 /*
-Calculate the square of the dis
+Calculate the square of the distance between
