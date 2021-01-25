@@ -26,4 +26,5 @@ file.
 namespace details {
 
 /*
-Calculate the square of the distance between
+Calculate the square of the distance between two points.
+*/
