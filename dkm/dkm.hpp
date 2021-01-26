@@ -28,4 +28,5 @@ namespace details {
 /*
 Calculate the square of the distance between two points.
 */
-template <typename T, size_
+template <typename T, size_t N>
+T distance_sq
