@@ -29,4 +29,4 @@ namespace details {
 Calculate the square of the distance between two points.
 */
 template <typename T, size_t N>
-T distance_squared(const std::a
+T distance_squared(const std::array<T, N>& point_a, 
