@@ -31,4 +31,4 @@ Calculate the square of the distance between two points.
 template <typename T, size_t N>
 T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
 	T d_squared = T();
-	for (
+	for (typename std::array<T
