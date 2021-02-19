@@ -32,4 +32,4 @@ template <typename T, size_t N>
 T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
 	T d_squared = T();
 	for (typename std::array<T, N>::size_type i = 0; i < N; ++i) {
-		
+		auto delta = po
