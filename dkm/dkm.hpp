@@ -33,4 +33,6 @@ T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& poin
 	T d_squared = T();
 	for (typename std::array<T, N>::size_type i = 0; i < N; ++i) {
 		auto delta = point_a[i] - point_b[i];
-		d_squared += delta * 
+		d_squared += delta * delta;
+	}
+	re
