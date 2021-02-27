@@ -35,4 +35,4 @@ T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& poin
 		auto delta = point_a[i] - point_b[i];
 		d_squared += delta * delta;
 	}
-	re
+	return d_squared
