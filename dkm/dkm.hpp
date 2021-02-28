@@ -38,4 +38,4 @@ T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& poin
 	return d_squared;
 }
 
-template <t
+template <typename T, siz
