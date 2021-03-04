@@ -39,4 +39,5 @@ T distance_squared(const std::array<T, N>& point_a, const std::array<T, N>& poin
 }
 
 template <typename T, size_t N>
-T distance(const std::array<T, N>& point_a, const std::array<T
+T distance(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
+	r
