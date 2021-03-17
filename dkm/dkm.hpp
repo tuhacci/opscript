@@ -44,4 +44,4 @@ T distance(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
 }
 
 /*
-Calculate the smalle
+Calculate the smallest distance b
