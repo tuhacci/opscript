@@ -44,4 +44,4 @@ T distance(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
 }
 
 /*
-Calculate the smallest distance between each of the data point
+Calculate the smallest distance between each of the data points and any of th
