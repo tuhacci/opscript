@@ -47,4 +47,5 @@ T distance(const std::array<T, N>& point_a, const std::array<T, N>& point_b) {
 Calculate the smallest distance between each of the data points and any of the input means.
 */
 template <typename T, size_t N>
-std::vector<T> closest_dis
+std::vector<T> closest_distance(
+	const 
