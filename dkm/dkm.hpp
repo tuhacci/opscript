@@ -48,4 +48,5 @@ Calculate the smallest distance between each of the data points and any of the i
 */
 template <typename T, size_t N>
 std::vector<T> closest_distance(
-	const std::vector<std::array<T, N>>& means, const std::vector<std::array<T, N>>& da
+	const std::vector<std::array<T, N>>& means, const std::vector<std::array<T, N>>& data) {
+	std::vect
