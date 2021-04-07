@@ -50,4 +50,4 @@ template <typename T, size_t N>
 std::vector<T> closest_distance(
 	const std::vector<std::array<T, N>>& means, const std::vector<std::array<T, N>>& data) {
 	std::vector<T> distances;
-	dist
+	distances.reserve(data
