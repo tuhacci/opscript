@@ -51,4 +51,4 @@ std::vector<T> closest_distance(
 	const std::vector<std::array<T, N>>& means, const std::vector<std::array<T, N>>& data) {
 	std::vector<T> distances;
 	distances.reserve(data.size());
-	for (auto
+	for (auto& d : dat
