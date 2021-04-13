@@ -52,4 +52,4 @@ std::vector<T> closest_distance(
 	std::vector<T> distances;
 	distances.reserve(data.size());
 	for (auto& d : data) {
-		T closest = di
+		T closest = distance_squared
