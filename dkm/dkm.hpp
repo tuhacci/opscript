@@ -54,4 +54,5 @@ std::vector<T> closest_distance(
 	for (auto& d : data) {
 		T closest = distance_squared(d, means[0]);
 		for (auto& m : means) {
-			T distance = distance_squared
+			T distance = distance_squared(d, m);
+			if (distan
