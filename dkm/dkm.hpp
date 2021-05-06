@@ -58,4 +58,4 @@ std::vector<T> closest_distance(
 			if (distance < closest)
 				closest = distance;
 		}
-		dis
+		distances.push_back(
