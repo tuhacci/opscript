@@ -60,4 +60,5 @@ std::vector<T> closest_distance(
 		}
 		distances.push_back(closest);
 	}
-	r
+	return distances;
+}
