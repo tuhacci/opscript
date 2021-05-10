@@ -64,4 +64,4 @@ std::vector<T> closest_distance(
 }
 
 /*
-This is an alternate initialization 
+This is an alternate initialization method based on the
