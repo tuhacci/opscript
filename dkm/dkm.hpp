@@ -64,4 +64,4 @@ std::vector<T> closest_distance(
 }
 
 /*
-This is an alternate initialization method based on the
+This is an alternate initialization method based on the [kmeans++
