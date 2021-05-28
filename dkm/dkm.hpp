@@ -68,4 +68,4 @@ This is an alternate initialization method based on the [kmeans++](https://en.wi
 initialization algorithm.
 */
 template <typename T, size_t N>
-std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>>& data, uint32_t k,
+std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>>& data, uint32_t k, uint64_t seed)
