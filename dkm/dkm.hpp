@@ -73,4 +73,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	assert(data.size() > 0);
 	using input_size_t = typename std::array<T, N>::size_type;
 	std::vector<std::array<T, N>> means;
-	// U
+	// Using a very simple 
