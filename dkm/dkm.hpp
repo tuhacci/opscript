@@ -74,4 +74,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	using input_size_t = typename std::array<T, N>::size_type;
 	std::vector<std::array<T, N>> means;
 	// Using a very simple PRBS generator, parameters selected according to
-	// https://en.wikipedia.org/wiki/Linear_congruential_generator#Par
+	// https://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_comm
