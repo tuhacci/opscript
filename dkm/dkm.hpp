@@ -77,4 +77,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	// https://en.wikipedia.org/wiki/Linear_congruential_generator#Parameters_in_common_use
 	std::linear_congruential_engine<uint64_t, 6364136223846793005, 1442695040888963407, UINT64_MAX> rand_engine(seed);
 
-	// Select fir
+	// Select first mean at random fr
