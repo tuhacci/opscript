@@ -80,4 +80,7 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	// Select first mean at random from the set
 	{
 		std::uniform_int_distribution<input_size_t> uniform_generator(0, data.size() - 1);
-		means.push_back(data[uniform_generator(rand_engin
+		means.push_back(data[uniform_generator(rand_engine)]);
+	}
+
+	for (uint32_
