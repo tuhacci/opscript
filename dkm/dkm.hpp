@@ -86,4 +86,5 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	for (uint32_t count = 1; count < k; ++count) {
 		// Calculate the distance to the closest mean for each data point
 		auto distances = details::closest_distance(means, data);
-		// Pick a random point weighted by the distance from e
+		// Pick a random point weighted by the distance from existing means
+		// TODO: T
