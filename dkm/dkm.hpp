@@ -88,4 +88,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 		auto distances = details::closest_distance(means, data);
 		// Pick a random point weighted by the distance from existing means
 		// TODO: This might convert floating point weights to ints, distorting the distribution for small weights
-#if !defined(_M
+#if !defined(_MSC_VER) ||
