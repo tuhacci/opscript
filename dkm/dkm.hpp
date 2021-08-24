@@ -89,4 +89,5 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 		// Pick a random point weighted by the distance from existing means
 		// TODO: This might convert floating point weights to ints, distorting the distribution for small weights
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-		std::discrete_distribution<input_size_t> generator(distances.begin(), distances.
+		std::discrete_distribution<input_size_t> generator(distances.begin(), distances.end());
+#el
