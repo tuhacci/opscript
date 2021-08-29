@@ -91,4 +91,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 		std::discrete_distribution<input_size_t> generator(distances.begin(), distances.end());
 #else  // MSVC++ older than 14.0
-	
+		input_size_t i
