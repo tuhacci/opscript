@@ -94,4 +94,5 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 		input_size_t i = 0;
 		std::discrete_distribution<input_size_t> generator(distances.size(), 0.0, 0.0, [&distances, &i](double) { return distances[i++]; });
 #endif
-		means.push_back(data[generator(rand_e
+		means.push_back(data[generator(rand_engine)]);
+	}
