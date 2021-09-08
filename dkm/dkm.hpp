@@ -93,4 +93,5 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 #else  // MSVC++ older than 14.0
 		input_size_t i = 0;
 		std::discrete_distribution<input_size_t> generator(distances.size(), 0.0, 0.0, [&distances, &i](double) { return distances[i++]; });
-#end
+#endif
+		means.pu
