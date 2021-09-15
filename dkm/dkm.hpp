@@ -96,3 +96,7 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 #endif
 		means.push_back(data[generator(rand_engine)]);
 	}
+	return means;
+}
+
+/
