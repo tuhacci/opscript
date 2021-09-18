@@ -99,4 +99,5 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 	return means;
 }
 
-/
+/*
+Calculate
