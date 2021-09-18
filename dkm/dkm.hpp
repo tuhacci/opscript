@@ -100,4 +100,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 }
 
 /*
-Calculate
+Calculate the index of the
