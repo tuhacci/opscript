@@ -102,4 +102,4 @@ std::vector<std::array<T, N>> random_plusplus(const std::vector<std::array<T, N>
 /*
 Calculate the index of the mean a particular data point is closest to (euclidean distance)
 */
-template <
+template <typename T, size_t
