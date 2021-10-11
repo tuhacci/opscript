@@ -106,4 +106,4 @@ template <typename T, size_t N>
 uint32_t closest_mean(const std::array<T, N>& point, const std::vector<std::array<T, N>>& means) {
 	assert(!means.empty());
 	T smallest_distance = distance_squared(point, means[0]);
-	typename
+	typename std::array<T, 
