@@ -109,4 +109,4 @@ uint32_t closest_mean(const std::array<T, N>& point, const std::vector<std::arra
 	typename std::array<T, N>::size_type index = 0;
 	T distance;
 	for (size_t i = 1; i < means.size(); ++i) {
-		distance =
+		distance = distance_squared(point, 
