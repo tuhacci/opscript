@@ -119,4 +119,4 @@ uint32_t closest_mean(const std::array<T, N>& point, const std::vector<std::arra
 }
 
 /*
-C
+Calculate the index of t
