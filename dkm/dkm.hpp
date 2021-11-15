@@ -119,4 +119,5 @@ uint32_t closest_mean(const std::array<T, N>& point, const std::vector<std::arra
 }
 
 /*
-Calculate the index of the mean each data point is closest to (euclidean di
+Calculate the index of the mean each data point is closest to (euclidean distance).
+*/
