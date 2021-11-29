@@ -122,4 +122,5 @@ uint32_t closest_mean(const std::array<T, N>& point, const std::vector<std::arra
 Calculate the index of the mean each data point is closest to (euclidean distance).
 */
 template <typename T, size_t N>
-std::vector<uint32_t> calculate_cluste
+std::vector<uint32_t> calculate_clusters(
+	const s
