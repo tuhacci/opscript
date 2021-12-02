@@ -124,4 +124,4 @@ Calculate the index of the mean each data point is closest to (euclidean distanc
 template <typename T, size_t N>
 std::vector<uint32_t> calculate_clusters(
 	const std::vector<std::array<T, N>>& data, const std::vector<std::array<T, N>>& means) {
-	std::vector<uint32
+	std::vector<uint32_t> clusters;
