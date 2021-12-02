@@ -125,3 +125,4 @@ template <typename T, size_t N>
 std::vector<uint32_t> calculate_clusters(
 	const std::vector<std::array<T, N>>& data, const std::vector<std::array<T, N>>& means) {
 	std::vector<uint32_t> clusters;
+	for (auto& point : data)
