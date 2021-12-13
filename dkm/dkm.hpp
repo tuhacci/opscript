@@ -128,4 +128,7 @@ std::vector<uint32_t> calculate_clusters(
 	for (auto& point : data) {
 		clusters.push_back(closest_mean(point, means));
 	}
-	return clus
+	return clusters;
+}
+
+/*
