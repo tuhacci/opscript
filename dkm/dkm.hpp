@@ -132,3 +132,4 @@ std::vector<uint32_t> calculate_clusters(
 }
 
 /*
+Calculate means b
