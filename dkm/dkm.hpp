@@ -132,4 +132,5 @@ std::vector<uint32_t> calculate_clusters(
 }
 
 /*
-Calculate means based on data points and their clu
+Calculate means based on data points and their cluster assignments.
+*/
