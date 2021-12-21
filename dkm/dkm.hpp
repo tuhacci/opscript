@@ -135,4 +135,4 @@ std::vector<uint32_t> calculate_clusters(
 Calculate means based on data points and their cluster assignments.
 */
 template <typename T, size_t N>
-std::vecto
+std::vector<std::array<T, N>> cal
