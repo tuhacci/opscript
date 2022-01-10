@@ -138,4 +138,5 @@ template <typename T, size_t N>
 std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>>& data,
 	const std::vector<uint32_t>& clusters,
 	const std::vector<std::array<T, N>>& old_means,
-	uint3
+	uint32_t k) {
+	std::vec
