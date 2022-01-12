@@ -139,4 +139,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 	const std::vector<uint32_t>& clusters,
 	const std::vector<std::array<T, N>>& old_means,
 	uint32_t k) {
-	std::vec
+	std::vector<std::ar
