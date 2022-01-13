@@ -140,4 +140,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 	const std::vector<std::array<T, N>>& old_means,
 	uint32_t k) {
 	std::vector<std::array<T, N>> means(k);
-	std::vector
+	std::vector<T> count(k,
