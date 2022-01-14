@@ -141,4 +141,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 	uint32_t k) {
 	std::vector<std::array<T, N>> means(k);
 	std::vector<T> count(k, T());
-	for (size_t i =
+	for (size_t i = 0; i < std::m
