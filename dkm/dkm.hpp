@@ -143,4 +143,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 	std::vector<T> count(k, T());
 	for (size_t i = 0; i < std::min(clusters.size(), data.size()); ++i) {
 		auto& mean = means[clusters[i]];
-		coun
+		count[clusters[i]] +=
