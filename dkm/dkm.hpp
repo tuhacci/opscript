@@ -149,4 +149,5 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 		}
 	}
 	for (size_t i = 0; i < k; ++i) {
-		if (count[i] == 0) 
+		if (count[i] == 0) {
+			means
