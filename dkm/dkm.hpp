@@ -152,4 +152,5 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 		if (count[i] == 0) {
 			means[i] = old_means[i];
 		} else {
-			for (size_t j = 0; j < means[i].si
+			for (size_t j = 0; j < means[i].size(); ++j) {
+	
