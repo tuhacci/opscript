@@ -160,4 +160,5 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 	return means;
 }
 
-template <typename T, 
+template <typename T, size_t N>
+std:
