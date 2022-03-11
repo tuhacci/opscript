@@ -161,4 +161,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 }
 
 template <typename T, size_t N>
-std:
+std::vector<T> delta
