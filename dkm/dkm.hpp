@@ -162,4 +162,4 @@ std::vector<std::array<T, N>> calculate_means(const std::vector<std::array<T, N>
 
 template <typename T, size_t N>
 std::vector<T> deltas(
-	const std::vector<std::array<T, N>>& old_means, const st
+	const std::vector<std::array<T, N>>& old_means, const std::vector<std::array<T
