@@ -164,3 +164,4 @@ template <typename T, size_t N>
 std::vector<T> deltas(
 	const std::vector<std::array<T, N>>& old_means, const std::vector<std::array<T, N>>& means)
 {
+	std::vector<T>
