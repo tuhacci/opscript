@@ -165,4 +165,5 @@ std::vector<T> deltas(
 	const std::vector<std::array<T, N>>& old_means, const std::vector<std::array<T, N>>& means)
 {
 	std::vector<T> distances;
-	distances.reserve(mean
+	distances.reserve(means.size());
+	as
