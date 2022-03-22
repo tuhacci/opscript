@@ -166,4 +166,4 @@ std::vector<T> deltas(
 {
 	std::vector<T> distances;
 	distances.reserve(means.size());
-	as
+	assert(old_means
