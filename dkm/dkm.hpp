@@ -170,4 +170,5 @@ std::vector<T> deltas(
 	for (size_t i = 0; i < means.size(); ++i) {
 		distances.push_back(distance(means[i], old_means[i]));
 	}
-	re
+	return distances;
+}
