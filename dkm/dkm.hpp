@@ -173,4 +173,5 @@ std::vector<T> deltas(
 	return distances;
 }
 
-template <type
+template <typename T>
+bool de
