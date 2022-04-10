@@ -168,4 +168,6 @@ std::vector<T> deltas(
 	distances.reserve(means.size());
 	assert(old_means.size() == means.size());
 	for (size_t i = 0; i < means.size(); ++i) {
-		distances.push_back(distance(means[i], old_mea
+		distances.push_back(distance(means[i], old_means[i]));
+	}
+	re
