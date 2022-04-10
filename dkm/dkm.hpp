@@ -174,4 +174,4 @@ std::vector<T> deltas(
 }
 
 template <typename T>
-bool de
+bool deltas_below_limit(
