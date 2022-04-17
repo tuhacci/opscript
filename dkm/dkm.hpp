@@ -175,4 +175,5 @@ std::vector<T> deltas(
 
 template <typename T>
 bool deltas_below_limit(const std::vector<T>& deltas, T min_delta) {
-	for (T d : delta
+	for (T d : deltas) {
+		if (d > min_delt
