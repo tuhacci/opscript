@@ -180,4 +180,7 @@ bool deltas_below_limit(const std::vector<T>& deltas, T min_delta) {
 			return false;
 		}
 	}
-	return tr
+	return true;
+}
+
+} // na
