@@ -186,4 +186,4 @@ bool deltas_below_limit(const std::vector<T>& deltas, T min_delta) {
 } // namespace details
 
 /*
-clustering
+clustering_parameters 
