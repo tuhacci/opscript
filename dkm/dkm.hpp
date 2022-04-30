@@ -186,4 +186,4 @@ bool deltas_below_limit(const std::vector<T>& deltas, T min_delta) {
 } // namespace details
 
 /*
-clustering_parameters is the configurati
+clustering_parameters is the configuration used for runnin
