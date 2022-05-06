@@ -188,4 +188,4 @@ bool deltas_below_limit(const std::vector<T>& deltas, T min_delta) {
 /*
 clustering_parameters is the configuration used for running the kmeans_lloyd algorithm.
 
-It requires a k value for initia
+It requires a k value for initialization, and
