@@ -190,4 +190,4 @@ clustering_parameters is the configuration used for running the kmeans_lloyd alg
 
 It requires a k value for initialization, and can subsequently be configured with your choice
 of optional parameters, including:
-* Maximum iteration count; the 
+* Maximum iteration count; the algorithm wil
