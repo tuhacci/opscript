@@ -192,4 +192,4 @@ It requires a k value for initialization, and can subsequently be configured wit
 of optional parameters, including:
 * Maximum iteration count; the algorithm will terminate if it reaches this iteration count
   before converging on a solution. The results returned are the means and cluster assignments 
-  calculated in 
+  calculated in the last iterati
