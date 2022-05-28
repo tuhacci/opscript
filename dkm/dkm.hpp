@@ -193,4 +193,4 @@ of optional parameters, including:
 * Maximum iteration count; the algorithm will terminate if it reaches this iteration count
   before converging on a solution. The results returned are the means and cluster assignments 
   calculated in the last iteration before termination.
-* Min
+* Minimum delta; the 
