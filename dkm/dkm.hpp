@@ -194,4 +194,4 @@ of optional parameters, including:
   before converging on a solution. The results returned are the means and cluster assignments 
   calculated in the last iteration before termination.
 * Minimum delta; the algorithm will terminate if the change in position of all means is
-  smaller than t
+  smaller than the specified di
