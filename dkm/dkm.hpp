@@ -195,4 +195,4 @@ of optional parameters, including:
   calculated in the last iteration before termination.
 * Minimum delta; the algorithm will terminate if the change in position of all means is
   smaller than the specified distance.
-* Random seed; if present, this 
+* Random seed; if present, this will be used in 
