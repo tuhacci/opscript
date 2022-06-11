@@ -196,4 +196,4 @@ of optional parameters, including:
 * Minimum delta; the algorithm will terminate if the change in position of all means is
   smaller than the specified distance.
 * Random seed; if present, this will be used in place of `std::random_device` for kmeans++
-  initialization. This can be 
+  initialization. This can be used to ensure r
