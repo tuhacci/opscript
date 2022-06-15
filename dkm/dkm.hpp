@@ -199,4 +199,4 @@ of optional parameters, including:
   initialization. This can be used to ensure reproducible/deterministic behavior.
 */
 template <typename T>
-class clus
+class clustering_paramete
