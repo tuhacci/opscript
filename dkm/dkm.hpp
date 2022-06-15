@@ -198,4 +198,5 @@ of optional parameters, including:
 * Random seed; if present, this will be used in place of `std::random_device` for kmeans++
   initialization. This can be used to ensure reproducible/deterministic behavior.
 */
-template <typename T
+template <typename T>
+class clus
