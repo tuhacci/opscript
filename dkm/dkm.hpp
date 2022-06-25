@@ -201,4 +201,5 @@ of optional parameters, including:
 template <typename T>
 class clustering_parameters {
 public:
-	explicit clustering_parameters(ui
+	explicit clustering_parameters(uint32_t k) :
+	
