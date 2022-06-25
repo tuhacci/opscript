@@ -201,4 +201,4 @@ of optional parameters, including:
 template <typename T>
 class clustering_parameters {
 public:
-	explicit clustering
+	explicit clustering_parameters(ui
