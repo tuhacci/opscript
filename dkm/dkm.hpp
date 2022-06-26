@@ -203,4 +203,5 @@ class clustering_parameters {
 public:
 	explicit clustering_parameters(uint32_t k) :
 	_k(k),
-	_has_max_iter(false), _max_iter(
+	_has_max_iter(false), _max_iter(),
+	_has_min_
