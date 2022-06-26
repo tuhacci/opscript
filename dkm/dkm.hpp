@@ -202,4 +202,5 @@ template <typename T>
 class clustering_parameters {
 public:
 	explicit clustering_parameters(uint32_t k) :
-	
+	_k(k),
+	_has_max_iter(
