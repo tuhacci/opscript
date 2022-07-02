@@ -205,4 +205,5 @@ public:
 	_k(k),
 	_has_max_iter(false), _max_iter(),
 	_has_min_delta(false), _min_delta(),
-	_has_rand_seed(false),
+	_has_rand_seed(false), _rand_seed()
+	
