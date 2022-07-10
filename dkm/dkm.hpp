@@ -208,4 +208,4 @@ public:
 	_has_rand_seed(false), _rand_seed()
 	{}
 
-	void set_max_iteration(
+	void set_max_iteration(uint64_t max_it
