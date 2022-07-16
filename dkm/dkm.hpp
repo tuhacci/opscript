@@ -214,4 +214,4 @@ public:
 		_has_max_iter = true;
 	}
 
-	
+	void set_min_de
