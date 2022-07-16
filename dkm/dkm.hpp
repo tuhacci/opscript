@@ -210,4 +210,5 @@ public:
 
 	void set_max_iteration(uint64_t max_iter)
 	{
-		_max_iter = max_
+		_max_iter = max_iter;
+		_has_max
