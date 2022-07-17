@@ -214,4 +214,5 @@ public:
 		_has_max_iter = true;
 	}
 
-	void set_min_de
+	void set_min_delta(T min_delta)
+	
