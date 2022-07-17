@@ -215,4 +215,5 @@ public:
 	}
 
 	void set_min_delta(T min_delta)
-	
+	{
+		_min_delta = 
