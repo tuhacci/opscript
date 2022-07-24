@@ -220,4 +220,4 @@ public:
 		_has_min_delta = true;
 	}
 
-	void
+	void set_random_se
