@@ -221,3 +221,5 @@ public:
 	}
 
 	void set_random_seed(uint64_t rand_seed)
+	{
+		_rand_see
