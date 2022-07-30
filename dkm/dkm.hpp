@@ -220,4 +220,4 @@ public:
 		_has_min_delta = true;
 	}
 
-	void set_random_se
+	void set_random_seed(uint64_t rand_seed)
