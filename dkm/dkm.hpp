@@ -226,4 +226,4 @@ public:
 		_has_rand_seed = true;
 	}
 
-	b
+	bool has_max
