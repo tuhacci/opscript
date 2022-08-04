@@ -222,4 +222,5 @@ public:
 
 	void set_random_seed(uint64_t rand_seed)
 	{
-		_rand_seed = rand_see
+		_rand_seed = rand_seed;
+		_has_rand_seed = 
