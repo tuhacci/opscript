@@ -226,4 +226,4 @@ public:
 		_has_rand_seed = true;
 	}
 
-	bool has_max_iteration() 
+	bool has_max_iteration() const { return
