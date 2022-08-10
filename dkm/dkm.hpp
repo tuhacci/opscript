@@ -226,4 +226,5 @@ public:
 		_has_rand_seed = true;
 	}
 
-	bool has_max_iteration() const { return _has_max_iter; 
+	bool has_max_iteration() const { return _has_max_iter; }
+	bool has_min_delt
