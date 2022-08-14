@@ -227,4 +227,4 @@ public:
 	}
 
 	bool has_max_iteration() const { return _has_max_iter; }
-	bool has_min_delta() const { r
+	bool has_min_delta() const { return _has_min_delta; }
