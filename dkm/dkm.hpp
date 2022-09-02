@@ -230,4 +230,5 @@ public:
 	bool has_min_delta() const { return _has_min_delta; }
 	bool has_random_seed() const { return _has_rand_seed; }
 
-	uint32_t get_k() const { return _
+	uint32_t get_k() const { return _k; };
+	uin
