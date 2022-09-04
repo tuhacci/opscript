@@ -231,4 +231,4 @@ public:
 	bool has_random_seed() const { return _has_rand_seed; }
 
 	uint32_t get_k() const { return _k; };
-	uin
+	uint64_t get_max_
