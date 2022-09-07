@@ -232,4 +232,4 @@ public:
 
 	uint32_t get_k() const { return _k; };
 	uint64_t get_max_iteration() const { return _max_iter; }
-	T 
+	T get_min_delta
