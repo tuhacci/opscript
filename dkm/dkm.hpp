@@ -236,4 +236,5 @@ public:
 	uint64_t get_random_seed() const { return _rand_seed; }
 
 private:
-	uint32_t _
+	uint32_t _k;
+	bool _has_m
