@@ -235,4 +235,5 @@ public:
 	T get_min_delta() const { return _min_delta; }
 	uint64_t get_random_seed() const { return _rand_seed; }
 
-privat
+private:
+	uint32_t _
