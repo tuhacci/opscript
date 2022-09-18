@@ -238,4 +238,5 @@ public:
 private:
 	uint32_t _k;
 	bool _has_max_iter;
-	ui
+	uint64_t _max_iter;
+	bool
