@@ -239,4 +239,5 @@ private:
 	uint32_t _k;
 	bool _has_max_iter;
 	uint64_t _max_iter;
-	bool
+	bool _has_min_delta;
+	
