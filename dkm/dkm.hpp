@@ -240,4 +240,5 @@ private:
 	bool _has_max_iter;
 	uint64_t _max_iter;
 	bool _has_min_delta;
-	
+	T _min_delta;
+	bool _ha
