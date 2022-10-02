@@ -246,4 +246,4 @@ private:
 };
 
 /*
-Implementation 
+Implementation of k-means generi
