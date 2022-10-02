@@ -242,4 +242,8 @@ private:
 	bool _has_min_delta;
 	T _min_delta;
 	bool _has_rand_seed;
-	uint64_t _rand_see
+	uint64_t _rand_seed;
+};
+
+/*
+I
