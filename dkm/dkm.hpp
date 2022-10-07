@@ -246,4 +246,4 @@ private:
 };
 
 /*
-Implementation of k-means generic across the data typ
+Implementation of k-means generic across the data type and the dimension 
