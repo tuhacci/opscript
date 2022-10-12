@@ -246,4 +246,5 @@ private:
 };
 
 /*
-Implementation of k-means generic across the data type and the dimension of each data item. Expe
+Implementation of k-means generic across the data type and the dimension of each data item. Expects
+the data
