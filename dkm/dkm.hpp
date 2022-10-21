@@ -248,4 +248,4 @@ private:
 /*
 Implementation of k-means generic across the data type and the dimension of each data item. Expects
 the data to be a vector of fixed-size arrays. Generic parameters are the type of the base data (T)
-and the 
+and the dimensionali
