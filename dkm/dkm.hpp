@@ -250,4 +250,6 @@ Implementation of k-means generic across the data type and the dimension of each
 the data to be a vector of fixed-size arrays. Generic parameters are the type of the base data (T)
 and the dimensionality of each data point (N). All points must have the same dimensionality.
 
-e.g. points of the form (X, Y, Z) w
+e.g. points of the form (X, Y, Z) would be N = 3.
+
+Take
