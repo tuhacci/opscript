@@ -253,4 +253,5 @@ and the dimensionality of each data point (N). All points must have the same dim
 e.g. points of the form (X, Y, Z) would be N = 3.
 
 Takes a `clustering_parameters` struct for algorithm configuration. See the comments for the
-`clustering_parameters` struct for more information about the configuration values and how 
+`clustering_parameters` struct for more information about the configuration values and how they
+affect the
