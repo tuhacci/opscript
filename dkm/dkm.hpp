@@ -256,4 +256,5 @@ Takes a `clustering_parameters` struct for algorithm configuration. See the comm
 `clustering_parameters` struct for more information about the configuration values and how they
 affect the algorithm.
 
-Returns a std::tuple cont
+Returns a std::tuple containing:
+  0: A 
