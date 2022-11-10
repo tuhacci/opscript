@@ -257,4 +257,4 @@ Takes a `clustering_parameters` struct for algorithm configuration. See the comm
 affect the algorithm.
 
 Returns a std::tuple containing:
-  0: A 
+  0: A vector hold
