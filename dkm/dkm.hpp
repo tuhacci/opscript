@@ -258,4 +258,4 @@ affect the algorithm.
 
 Returns a std::tuple containing:
   0: A vector holding the means for each cluster from 0 to k-1.
-  1: A vector conta
+  1: A vector containing the cluster 
