@@ -259,4 +259,6 @@ affect the algorithm.
 Returns a std::tuple containing:
   0: A vector holding the means for each cluster from 0 to k-1.
   1: A vector containing the cluster number (0 to k-1) for each corresponding element of the input
-	 dat
+	 data vector.
+
+Implemen
