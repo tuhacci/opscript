@@ -261,4 +261,5 @@ Returns a std::tuple containing:
   1: A vector containing the cluster number (0 to k-1) for each corresponding element of the input
 	 data vector.
 
-Implementation detai
+Implementation details:
+This implementati
