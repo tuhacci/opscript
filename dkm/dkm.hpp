@@ -262,4 +262,4 @@ Returns a std::tuple containing:
 	 data vector.
 
 Implementation details:
-This implementati
+This implementation of k-means uses
