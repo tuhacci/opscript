@@ -262,4 +262,5 @@ Returns a std::tuple containing:
 	 data vector.
 
 Implementation details:
-This implementation of k-means uses [Lloyd's Algorithm](https://en.wikipedia.org/wiki/Lloy
+This implementation of k-means uses [Lloyd's Algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm)
+w
