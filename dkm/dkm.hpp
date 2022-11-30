@@ -263,4 +263,4 @@ Returns a std::tuple containing:
 
 Implementation details:
 This implementation of k-means uses [Lloyd's Algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm)
-with the [kmeans
+with the [kmeans++](https://en.wiki
