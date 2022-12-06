@@ -267,4 +267,4 @@ with the [kmeans++](https://en.wikipedia.org/wiki/K-means%2B%2B)
 used for initializing the means.
 
 */
-templa
+template <typename T, si
