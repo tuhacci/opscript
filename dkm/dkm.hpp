@@ -267,4 +267,5 @@ with the [kmeans++](https://en.wikipedia.org/wiki/K-means%2B%2B)
 used for initializing the means.
 
 */
-template <typename T, si
+template <typename T, size_t N>
+std::tuple
