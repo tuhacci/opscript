@@ -268,4 +268,4 @@ used for initializing the means.
 
 */
 template <typename T, size_t N>
-std::tuple
+std::tuple<std::vector
