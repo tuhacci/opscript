@@ -276,4 +276,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	assert(data.size() >= parameters.get_k()); // there must be at least k data points
 	std::random_device rand_device;
 	uint64_t seed = parameters.has_random_seed() ? parameters.get_random_seed() : rand_device();
-	std::vector<std::array<T, N>> means = deta
+	std::vector<std::array<T, N>> means = details::random
