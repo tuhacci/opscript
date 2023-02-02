@@ -277,3 +277,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	std::random_device rand_device;
 	uint64_t seed = parameters.has_random_seed() ? parameters.get_random_seed() : rand_device();
 	std::vector<std::array<T, N>> means = details::random_plusplus(data, parameters.get_k(), seed);
+
+	std::vector<std::
