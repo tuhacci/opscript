@@ -283,4 +283,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	std::vector<uint32_t> clusters;
 	// Calculate new means until convergence is reached or we hit the maximum iteration count
 	uint64_t count = 0;
-	d
+	do {
+		clusters
