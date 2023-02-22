@@ -285,4 +285,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	uint64_t count = 0;
 	do {
 		clusters = details::calculate_clusters(data, means);
-		old_old_means
+		old_old_means = old_means;
+		ol
