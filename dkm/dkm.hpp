@@ -290,4 +290,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 		means = details::calculate_means(data, clusters, old_means, parameters.get_k());
 		++count;
 	} while (means != old_means && means != old_old_means
-		&& !(parameters.has_max_iteration() && count == parameters
+		&& !(parameters.has_max_iteration() && count == parameters.get_max_iterati
