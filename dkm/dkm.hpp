@@ -291,4 +291,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 		++count;
 	} while (means != old_means && means != old_old_means
 		&& !(parameters.has_max_iteration() && count == parameters.get_max_iteration())
-		&& !(parameters.has_min_delta() && d
+		&& !(parameters.has_min_delta() && details::del
