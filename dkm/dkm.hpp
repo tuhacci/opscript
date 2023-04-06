@@ -293,4 +293,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 		&& !(parameters.has_max_iteration() && count == parameters.get_max_iteration())
 		&& !(parameters.has_min_delta() && details::deltas_below_limit(details::deltas(old_means, means), parameters.get_min_delta())));
 
-	return std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>>(means, c
+	return std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>>(means, clusters);
+}
