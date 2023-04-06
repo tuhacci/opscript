@@ -295,3 +295,6 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 
 	return std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>>(means, clusters);
 }
+
+/*
+This ov
