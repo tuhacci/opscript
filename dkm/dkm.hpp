@@ -297,4 +297,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 }
 
 /*
-This overload exists to support legacy code which uses this signature of the kmeans_lloyd fun
+This overload exists to support legacy code which uses this signature of the kmeans_lloyd function.
+Any 
