@@ -299,4 +299,6 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 /*
 This overload exists to support legacy code which uses this signature of the kmeans_lloyd function.
 Any code still using this signature should move to the version of this function that uses a
-`clustering_parameters` struct for config
+`clustering_parameters` struct for configuration.
+*/
+template 
