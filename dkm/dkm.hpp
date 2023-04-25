@@ -301,4 +301,4 @@ This overload exists to support legacy code which uses this signature of the kme
 Any code still using this signature should move to the version of this function that uses a
 `clustering_parameters` struct for configuration.
 */
-template 
+template <typename T, si
