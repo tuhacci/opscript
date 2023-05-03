@@ -302,4 +302,4 @@ Any code still using this signature should move to the version of this function 
 `clustering_parameters` struct for configuration.
 */
 template <typename T, size_t N>
-std::tuple<std::vector<std::array<T, N>
+std::tuple<std::vector<std::array<T, N>>, std::vector<
