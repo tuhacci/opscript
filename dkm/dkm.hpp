@@ -304,4 +304,5 @@ Any code still using this signature should move to the version of this function 
 template <typename T, size_t N>
 std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	const std::vector<std::array<T, N>>& data, uint32_t k,
-	uint64_t max_iter = 0, T min_delta = -1
+	uint64_t max_iter = 0, T min_delta = -1.0) {
+	clustering_param
