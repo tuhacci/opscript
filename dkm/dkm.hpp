@@ -306,4 +306,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	const std::vector<std::array<T, N>>& data, uint32_t k,
 	uint64_t max_iter = 0, T min_delta = -1.0) {
 	clustering_parameters<T> parameters(k);
-	i
+	if (max_iter !=
