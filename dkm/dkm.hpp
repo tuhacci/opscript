@@ -310,4 +310,5 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 		parameters.set_max_iteration(max_iter);
 	}
 	if (min_delta != 0) {
-		parameters.set_min_delta(min
+		parameters.set_min_delta(min_delta);
+    }
