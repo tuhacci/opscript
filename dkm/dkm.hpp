@@ -312,4 +312,7 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	if (min_delta != 0) {
 		parameters.set_min_delta(min_delta);
     }
-	return kmeans_lloyd(data, para
+	return kmeans_lloyd(data, parameters);
+}
+
+} //
