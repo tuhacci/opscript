@@ -315,4 +315,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 	return kmeans_lloyd(data, parameters);
 }
 
-} //
+} // namespace dkm
