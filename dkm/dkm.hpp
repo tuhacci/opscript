@@ -317,4 +317,4 @@ std::tuple<std::vector<std::array<T, N>>, std::vector<uint32_t>> kmeans_lloyd(
 
 } // namespace dkm
 
-#endif /* D
+#endif /* DKM_KMEANS_H */
